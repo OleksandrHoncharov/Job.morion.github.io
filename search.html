@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Job.morion</title>
+	<meta property="og:locale" content="ru">
+	<meta property="og:type" content="Job">
+	<meta property="og:title" content="Job">
+	<meta property="og:description" content="Job">
+	<meta property="og:url" content="#">
+	<meta property="og:site_name" content="Job">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- jsgrid -->
+	<link type="text/css" rel="stylesheet" href="css/jsgrid.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/jsgrid-theme.min.css" />
+	<!-- My style -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+    <div class="wrap-site">
+        <header class="site-header__search">
+            <div class="">
+                <nav class="navbar top-menu" id="about">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+                        <div>
+                            <a class="navbar-brand  hidden-sm hidden-md hidden-lg" href="#"><img src="img/logo/job_morion_logo-md.png" width="100" height="23" alt="Логотип"></a>
+                        </div>
+                        <div class="hidden-xs">
+                            <a class="navbar-brand" href="#"><img src="img/logo/job_morion_logo-sm.png" width="192" height="44" alt="Логотип"></a>
+                        </div>
+                    </div>
+                    <div class="dropdown dropdown-language__after hidden-md hidden-lg">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                            RU
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">UA</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">EN</a></li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse header-nav" id="navbar-main">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="first-nav__li all-nav__li"><a href="#home">Разместить вакансию</a></li>
+                            <li class="all-nav__li"><a href="#about" rel='m_PageScroll2id'>Услуги и Цены</a></li>
+                            <li class="all-nav__li"><a href="#portfolio" rel='m_PageScroll2id'>Контакты</a></li>
+                            <li class="enter-nav__li all-nav__li"><a href="#portfolio" rel='m_PageScroll2id'>Войти</a></li>
+                            <li class="enter-nav__li all-nav__li"><a href="#portfolio" rel='m_PageScroll2id'>Зарегистрироваться</a></li>
+                            <li class="change-lang-nav__li all-nav__li hidden-xs hidden-sm">
+                                <div class="dropdown dropdown-language__before">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                                        RU
+                                        <span class="glyphicon glyphicon-chevron-down"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">UA</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">EN</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="change-page-nav__li all-nav__li"><a href="applicant.html" rel='m_PageScroll2id' target="_blank">Соискателю <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="site-content">
+
+            <section class="search-form">
+                <div class="container-fluid">
+                    <form class="form-search form-inline">
+                        <div class="row">
+                            <div class="col-sm-0 col-md-3"></div>
+                            <div class="col-sm-12 col-md-9 col-lg-6">
+                                <div class="input-group">
+                                    <div class="search-input__block">
+                                        <input type="text" class="span2 search-query" placeholder="Ищу Резюме">
+                                    </div>
+                                    
+                                    <div class="hidden-xs input-group-btn search-dropdown__block">
+                                        <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Все регионы 
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Киев</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Харьков</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Одесса</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Днепр</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Донецк</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Запорожье</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Львов</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Кривой Рог</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Николаев</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- /btn-group -->
+
+                                    <span class="input-group-btn search-button__block">
+                                        <button class="btn" type="button">Найти</button>
+                                    </span>
+                                </div>
+                                <!-- /input-group -->
+                            </div>
+                            <!-- /.col-lg-6 -->
+                        </div>
+                        <!-- /.row -->
+                    </form>
+                </div>
+            </section>
+
+            <section class="section-search">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-3 col-lg-3 left-sidebar">
+                            <div class="block-sidebar hidden-xs">
+                                <p><a class="filter-selection" href="#"><span class="glyphicon glyphicon-remove btn-xs" aria-hidden="true"></span>Киев</a></p>
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                            <span class="glyphicon glyphicon-chevron-down btn-sm"></span> Регион
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Поиск города:</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Поиск города:">
+                                            </div>
+                                            <ul>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Киев</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Харьков</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Одесса</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Днепр</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Донецк</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                            <span class="glyphicon glyphicon-chevron-down btn-sm"></span> Зарплата
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Киев</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Харьков</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Одесса</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Днепр</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Донецк</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                            <span class="glyphicon glyphicon-chevron-down btn-sm"></span> Профобласть
+                                        </a>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Лечащий врач</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Маркетинг</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Медицинский представитель</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                            <span class="glyphicon glyphicon-chevron-down btn-sm"></span> Отрасль компании
+                                        </a>
+                                    </div>
+                                    <div id="collapseFour" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Маркетинг</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Маркетинг</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Маркетинг</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Маркетинг</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFifth">
+                                            <span class="glyphicon glyphicon-chevron-down btn-sm"></span> Опыт работы
+                                        </a>
+                                    </div>
+                                    <div id="collapseFifth" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Киев</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Харьков</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Одесса</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Днепр</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Донецк</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                            <span class="glyphicon glyphicon-chevron-down btn-sm"></span> Тип занятости
+                                        </a>
+                                    </div>
+                                    <div id="collapseSix" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Неполная занятость</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Частичная занятость</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Постоянная занятость</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                                            <span class="glyphicon glyphicon-chevron-down btn-sm"></span> График работы
+                                        </a>
+                                    </div>
+                                    <div id="collapseSeven" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Киев</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Харьков</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Одесса</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Днепр</a></li>
+                                                <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Донецк</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-9 col-lg-6 main-block">
+                            <div class="title-search__block">
+                                <p>Результаты поиска по запросу “терапевт” в Киеве</p>
+                                <p>Найдено <span>30</span> вакансий за <a href="#">30 дней</a></p>
+                            </div>
+                            <div class="block-vacancy">
+                                <h3><a href="#">Лікар в дитячий табір</a></h3>
+                                <p class="name-company__vacancy">Козацька Фортеця, ДТ</p>
+                                <p class="salary-city__vacancy">7 000 грн <span>Киев</span></p>
+                                <p class="main-text__vacancy">Потрібен лікар в дитячий табір. Робота на літній період. Повна зайнятість. Табір знаходиться в Черкаській області. Робота з дітьми від 8 до 16 років. Вимоги до кандидата: медична освіта, без шкідливих...</p>
+                                <p class="link-info__vacancy">
+                                    <a href="#" class="pull-left">Терапевт</a>
+                                    <a href="#" class="pull-right">3 часа назад</a>
+                                </p>
+                            </div>
+                            <div class="block-vacancy">
+                                <h3><a href="#">Лікар в дитячий табір</a></h3>
+                                <p class="name-company__vacancy">Козацька Фортеця, ДТ</p>
+                                <p class="salary-city__vacancy">7 000 грн <span>Киев</span></p>
+                                <p class="main-text__vacancy">Потрібен лікар в дитячий табір. Робота на літній період. Повна зайнятість. Табір знаходиться в Черкаській області. Робота з дітьми від 8 до 16 років. Вимоги до кандидата: медична освіта, без шкідливих...</p>
+                                <p class="link-info__vacancy">
+                                    <a href="#" class="pull-left">Терапевт</a>
+                                    <a href="#" class="pull-right">3 часа назад</a>
+                                </p>
+                            </div>
+                            <div class="block-vacancy">
+                                <h3><a href="#">Лікар в дитячий табір</a></h3>
+                                <p class="name-company__vacancy">Козацька Фортеця, ДТ</p>
+                                <p class="salary-city__vacancy">7 000 грн <span>Киев</span></p>
+                                <p class="main-text__vacancy">Потрібен лікар в дитячий табір. Робота на літній період. Повна зайнятість. Табір знаходиться в Черкаській області. Робота з дітьми від 8 до 16 років. Вимоги до кандидата: медична освіта, без шкідливих...</p>
+                                <p class="link-info__vacancy">
+                                    <a href="#" class="pull-left">Терапевт</a>
+                                    <a href="#" class="pull-right">3 часа назад</a>
+                                </p>
+                            </div>
+                            <div class="block-vacancy">
+                                <h3><a href="#">Лікар в дитячий табір</a></h3>
+                                <p class="name-company__vacancy">Козацька Фортеця, ДТ</p>
+                                <p class="salary-city__vacancy">7 000 грн <span>Киев</span></p>
+                                <p class="main-text__vacancy">Потрібен лікар в дитячий табір. Робота на літній період. Повна зайнятість. Табір знаходиться в Черкаській області. Робота з дітьми від 8 до 16 років. Вимоги до кандидата: медична освіта, без шкідливих...</p>
+                                <p class="link-info__vacancy">
+                                    <a href="#" class="pull-left">Терапевт</a>
+                                    <a href="#" class="pull-right">3 часа назад</a>
+                                </p>
+                            </div>
+                            <div class="block-vacancy">
+                                <h3><a href="#">Лікар в дитячий табір</a></h3>
+                                <p class="name-company__vacancy">Козацька Фортеця, ДТ</p>
+                                <p class="salary-city__vacancy">7 000 грн <span>Киев</span></p>
+                                <p class="main-text__vacancy">Потрібен лікар в дитячий табір. Робота на літній період. Повна зайнятість. Табір знаходиться в Черкаській області. Робота з дітьми від 8 до 16 років. Вимоги до кандидата: медична освіта, без шкідливих...</p>
+                                <p class="link-info__vacancy">
+                                    <a href="#" class="pull-left">Терапевт</a>
+                                    <a href="#" class="pull-right">3 часа назад</a>
+                                </p>
+                            </div>
+                            <div class="block-vacancy">
+                                <h3><a href="#">Лікар в дитячий табір</a></h3>
+                                <p class="name-company__vacancy">Козацька Фортеця, ДТ</p>
+                                <p class="salary-city__vacancy">7 000 грн <span>Киев</span></p>
+                                <p class="main-text__vacancy">Потрібен лікар в дитячий табір. Робота на літній період. Повна зайнятість. Табір знаходиться в Черкаській області. Робота з дітьми від 8 до 16 років. Вимоги до кандидата: медична освіта, без шкідливих...</p>
+                                <p class="link-info__vacancy">
+                                    <a href="#" class="pull-left">Терапевт</a>
+                                    <a href="#" class="pull-right">3 часа назад</a>
+                                </p>
+                            </div>
+                            <div class="block-vacancy">
+                                <h3><a href="#">Лікар в дитячий табір</a></h3>
+                                <p class="name-company__vacancy">Козацька Фортеця, ДТ</p>
+                                <p class="salary-city__vacancy">7 000 грн <span>Киев</span></p>
+                                <p class="main-text__vacancy">Потрібен лікар в дитячий табір. Робота на літній період. Повна зайнятість. Табір знаходиться в Черкаській області. Робота з дітьми від 8 до 16 років. Вимоги до кандидата: медична освіта, без шкідливих...</p>
+                                <p class="link-info__vacancy">
+                                    <a href="#" class="pull-left">Терапевт</a>
+                                    <a href="#" class="pull-right">3 часа назад</a>
+                                </p>
+                            </div>
+                            <div class="block-vacancy">
+                                <h3><a href="#">Лікар в дитячий табір</a></h3>
+                                <p class="name-company__vacancy">Козацька Фортеця, ДТ</p>
+                                <p class="salary-city__vacancy">7 000 грн <span>Киев</span></p>
+                                <p class="main-text__vacancy">Потрібен лікар в дитячий табір. Робота на літній період. Повна зайнятість. Табір знаходиться в Черкаській області. Робота з дітьми від 8 до 16 років. Вимоги до кандидата: медична освіта, без шкідливих...</p>
+                                <p class="link-info__vacancy">
+                                    <a href="#" class="pull-left">Терапевт</a>
+                                    <a href="#" class="pull-right">3 часа назад</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hidden-xs hidden-sm hidden-md col-lg-3 right-sidebar">
+                            <div class="right-sidebar__bg">
+                                <div class="block-vip__resume">
+                                    <h2>VIP-резюме</h2>
+                                    <div class="item-vip__resume">
+                                        <a href="#"></a>
+                                        <h3>Менеджер по продажам</h3>
+                                        <h4>от 4 000 грн.</h4>
+                                        <p>Омакс Интернешнл, Обухов</p>
+                                    </div>
+                                    <div class="item-vip__resume">
+                                        <a href="#"></a>
+                                        <h3>Менеджер по продажам</h3>
+                                        <h4>от 4 000 грн.</h4>
+                                        <p>Омакс Интернешнл, Обухов</p>
+                                    </div>
+                                    <div class="item-vip__resume">
+                                        <a href="#"></a>
+                                        <h3>Менеджер по продажам</h3>
+                                        <h4>от 4 000 грн.</h4>
+                                        <p>Омакс Интернешнл, Обухов</p>
+                                    </div>
+                                </div>
+                                <div class="block-same__resume">
+                                    <h2>Похожие вакансии</h2>
+                                    <div class="green-line"></div>
+                                    <div class="item-same__resume">
+                                        <a href="#"></a>
+                                        <h4>Массажист</h4>
+                                        <p>Континент-Торг, ООО</p>
+                                        <p>8000 грн.</p>
+                                        <p>Киев</p>
+                                    </div>
+                                    <div class="green-line"></div>
+                                    <div class="item-same__resume">
+                                        <a href="#"></a>
+                                        <h4>Помощник массажиста</h4>
+                                        <p>Доктор Массаж,ООО</p>
+                                        <p>5000 грн.</p>
+                                        <p>Киев</p>
+                                    </div>
+                                    <div class="green-line"></div>
+                                    <div class="item-same__resume">
+                                        <a href="#"></a>
+                                        <h4>Массажист</h4>
+                                        <p>Жуковская А.Г., ФЛП</p>
+                                        <p>10000 грн.</p>
+                                        <p>Киев</p>
+                                    </div>
+                                    <div class="green-line"></div>
+                                    <div class="item-same__resume">
+                                        <a href="#"></a>
+                                        <h4>Врач-вертебролог, остеопат, мануальний терапевт</h4>
+                                        <p>Мануал-Плюс, Медицинский центр</p>
+                                        <p>Киев</p>
+                                    </div>
+                                    <h3 class="pull-right"><a href="#">СМОТРЕТЬ ВСЕ</a></h3>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <footer class="site-footer">
+            <div class="container-fluid">
+                <div class="row flex-block__footer">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 wishes-block footer-information__block">
+                        <a href="#"><img src="img/logo/job_morion_logo-sm.png" width="192" height="44" alt="Job.morion"></a>
+                        <p>job.morion.ua</p>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">О job.morion.ua</a></li>
+                            <li class="list-group-item"><a href="#">Конфиденциальност</a></li>
+                            <li class="list-group-item"><a href="#">Карта сайта</a></li>
+                            <div class="wishes-block">
+                                
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-information__block">
+                        <p>работодателю</p>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Добавить вакансию</a></li>
+                            <li class="list-group-item"><a href="#">Поиск резюме</a></li>
+                            <li class="list-group-item"><a href="#">Рассылка резюме</a></li>
+                            <li class="list-group-item"><a href="#">Наши услуги</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-information__block">
+                        <p>соискателю</p>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Найти работу</a></li>
+                            <li class="list-group-item"><a href="#">Разместить резюме</a></li>
+                            <li class="list-group-item"><a href="#">Рассылка вакансий</a></li>
+                            <li class="list-group-item"><a href="#">Как составить резюме</a></li>
+                            <li class="list-group-item"><a href="#">Архив вакансий</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-information__block">
+                        <p>популярные города</p>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Работа Киев</a></li>
+                            <li class="list-group-item"><a href="#">Работа Днепр</a></li>
+                            <li class="list-group-item"><a href="#">Работа Харьков</a></li>
+                            <li class="list-group-item"><a href="#">Работа Одесса</a></li>
+                            <li class="list-group-item"><a href="#">Работа Львов</a></li>
+                            <li class="list-group-item"><a href="#">Работа Запорожье</a></li>
+                            <li class="list-group-item"><a href="#">Работа Тернополь</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-block__footer">
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <p>ООО «МОРИОН» © 2017 <br> Все права защищены и охраняются действующим законодательством Украины. <br> Использование материалов с данного сайта возможно только с письменного разрешения компании ООО «МОРИОН». <br> Администрация сайта не несет ответственности за содержание размещенных объявлений.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="pull-right">Написать <a href="#">job.morion.ua</a> <br> Присылайте свои замечания <br> и пожелания по работе <br> и наполнению портала.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+
+        <div id="to_the_top">
+            <a href="#about" rel='m_PageScroll2id'>
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+        </div>
+
+    </div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/jquery.1.11.0.min.js"></script>
+	<!-- Top scroll -->
+	<script src="js/jquery.scroll2Top.min.js"></script>
+	<!-- jsgrid -->
+	<script type="text/javascript" src="js/jsgrid.min.js"></script>
+	<!-- PageScrol -->
+	<script src="extensions/pagescroll2id/PageScroll2id.min.js"></script>
+	<!-- MyJSindex -->
+	<script src="js/jscripts.js"></script>
+	<!-- bootstrapJS -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
